@@ -14,3 +14,14 @@ def random(N):
                 arr[i,j]=1
     
     return arr
+
+def frog(N):
+    arr = np.zeros((N,N))
+
+    arr[0,1] = 1
+    arr[1,2] = 1
+    arr[2,0] = 1
+    arr[2,1] = 1
+    arr[2,2] = 1
+
+    return arr    

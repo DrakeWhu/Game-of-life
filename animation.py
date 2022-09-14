@@ -3,16 +3,17 @@ import matplotlib.pyplot as plt
 import creation
 from step import step
 
-N = 100 #Size of the grid
-frames = 25
+N = 75 #Size of the grid
+frames = 500
 
 arr = creation.random(N) #Creation of the initial array
 
 for _ in range(frames):
-    step(arr,N)
+    arr = step(arr)
     
     plt.imshow(arr)
-    plt.pause(0.1)
+    plt.pause(0.01)
+    plt.clf()
 
 plt.show()
     
