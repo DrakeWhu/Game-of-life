@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+.venv-*/
+env/
+venv/
+
+# Tools
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+
+# Local IDE/editor state
+.vscode/
+
+# Outputs
+outputs/
+*.mp4
+*.gif
+
+__pycache__/
+*.py[cod]
+.venv/
+.venv-*/
+.ruff_cache/
+.pytest_cache/
+
+*.egg-info/
+build/
+dist/
